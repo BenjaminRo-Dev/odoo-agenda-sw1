@@ -5,12 +5,15 @@ Básicos de desarrollo en Odoo con Utilizando docker
 
 # Puesta en marcha en localhost
 	1. Descargar el proyecto base de la agenda académica de github
-	2. Ejecutar el siguiente comando docker compose -f docker-compose-dev.yml up
+		https://github.com/RafaelSvgh/agendasw1.git
+	2. Ejecutar el siguiente comando 
+		docker compose -f docker-compose-dev.yml up
 		Nota: No olvidar tener abierto docker
 	3. Entrar a http://localhost:8069/ -> Listo
 
 # Integrar Odoo a un IDE
 	1. Descargar el proyecto base de odoo desde github
+		https://github.com/BenjaminRo-Dev/odoo-agenda-sw1.git
 	2. Hacer un cd a la carpeta: cd /mnt/extra-addons
 	3. Ejecutar el comando odoo scaffold manage
 		a. Listar
