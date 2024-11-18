@@ -1,13 +1,14 @@
 version: '3.1'
 services:
   web:
-    image: benjaminrodev/agenda_sw1:1.0.0
+    image: benjaminrodev/agenda_sw1:3.0.0
     depends_on:
       - db
     ports:
       - "8069:8069"
     volumes:
       - /var/lib/odoo
+      - ./config:/etc/odoo
       - /etc/odoo
       - /mnt/extra-addons
       - /var/log/odoo
